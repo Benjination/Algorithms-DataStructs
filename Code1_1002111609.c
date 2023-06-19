@@ -14,6 +14,7 @@ NODE;
 
 void AddNodeToLL(int Number, NODE **LinkedListHead)
 {
+    
     NODE *TempPtr, *PrevPtr, *NewNode;
     
     PrevPtr = NULL;
@@ -30,7 +31,8 @@ void AddNodeToLL(int Number, NODE **LinkedListHead)
     NewNode->number = Number;
     NewNode->next_ptr = TempPtr;
 
-    /* If PrevPtr is still NULL, then we are at the start of the list */
+    
+     //If PrevPtr is still NULL, then we are at the start of the list
     if (PrevPtr == NULL)
     {
         *LinkedListHead = NewNode;
@@ -39,6 +41,8 @@ void AddNodeToLL(int Number, NODE **LinkedListHead)
     {
         PrevPtr->next_ptr = NewNode;
     }
+
+    
 }
 
 void ReadFileIntoLL(int argc,  char *argv[], NODE **LLH)
@@ -55,26 +59,24 @@ void ReadFileIntoLL(int argc,  char *argv[], NODE **LLH)
     {
         readFile = fopen(argv[1], "r");
         while(fgets(str, 60, readFile))
-            {
-                num = atoi(str);
-                AddNodeToLL(num, LLH);
-                cnt++;
-                sum += num;
-            }
+        {
+            num = atoi(str);
+            AddNodeToLL(num, LLH);
+            cnt++;
+            sum += num;
+        }
         printf("%d records were read for a total sum of %d", cnt, sum);
     }
 }
 
 void PrintLL(NODE *LLH)
 {
-    NODE *TempPtr, *PrevPtr;
-    PrevPtr = NULL;
+    NODE *TempPtr;
     TempPtr = LLH;
 
     while (TempPtr != NULL)
-    {    
+    {
         printf("%p %d %p\n", TempPtr, TempPtr->number, TempPtr->next_ptr);
-        PrevPtr = TempPtr;
         TempPtr = TempPtr->next_ptr;
     }
 }
@@ -96,8 +98,9 @@ void FreeLL(NODE **LLH)
         printf("\nFreeing %p %d %p\n", TempPtr, TempPtr->number, TempPtr->next_ptr);
         #endif
         
-        free(*LLH);
         (*LLH) = TempPtr->next_ptr;
+        free(TempPtr);
+        
 
     }
     printf("%d nodes were deleted for a total sum of %d", cnt, sum);
@@ -116,11 +119,13 @@ int main(int argc, char *argv[])
     printf("\n%ld tics to write the file into the linked list\n", end-start);
 
     /* capture the clock in a start time */
-    start = clock();
+    
     #ifdef PRINT
+    start = clock();
     PrintLL(LLH);
-    #endif
     end = clock();
+    #endif
+    
     /* capture the clock in an end time */
     printf("\n%ld tics to print the linked list\n", end-start);
     
@@ -133,3 +138,4 @@ int main(int argc, char *argv[])
     
     return 0;
 }
+
