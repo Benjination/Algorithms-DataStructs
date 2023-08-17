@@ -1,0 +1,12 @@
+typedef struct Snake
+{
+    char *name;
+    float length;
+    float weight;
+    char poison;
+    char *description;
+    char *region;
+    int offspring; 
+    struct Snake nxt_ptr;
+}
+SNAKE;

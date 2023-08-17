@@ -1,0 +1,37 @@
+Pichu|1.00|4.4|B|Tiny Mouse|Static|1|172
+Pikachu|1.04|13.2|B|Mouse|Static|2|025
+Raichu|2.07|66.1|B|Mouse|Static|3|026
+Charmander|2.00|18.7|B|Lizard|Blaze|1|004
+Charmeleon|3.7|41.9|B|Flame|Blaze|2||005
+Charizard|5.7|199.5|B|Flame|Blaze|3|006
+Squirtle|1.08|19.8|B|Tiny Turtle|Torrent|1|007
+Wartortle|3.03|49.6|B|Turtle|Torrent|2|008
+Blastoise|5.03|188.5|B|Shellfish|Torrent|3|009
+Igglybuff|1.00|2.2|B|Balloon|Cute Charm, Competitive|1|174
+Jigglypuff|1.08|12.1|B|Balloon|Cute Charm,Competitive|2|039
+Wigglytuff|3.03|26.5|B|Balloon|Cute Charm,Competitive|3|040
+Ponyta|3.03|66.1|B|Fire Horse|Run Away, Flash Fire|1|077
+Rapidash|5.07|209.4|B|Fire Horse|Run Away, Flash Fire|2|078
+Psyduck|2.07|43.2|B|Duck|Damp, Cloud Nine|1|054
+Golduck|5.07|168.9|B|Duck|Damp. Cloud Nine|2|055
+Vaporeon|3.03|63.9|B|Bubble Jet|Water Absorb|2|134
+Eevee|1.00|14.3|B|Evolution|Run Away, Adaptability|1|133
+Jolteon|2.07|54.0|B|Lightning|Volt Absorb|3|135
+Meowth|1.04|9.2|B|Scratch Cat|Pickup, Technician|1|052
+Persian|3.03|70.5|B|Classy Cat|Technician, Limber|2|053
+Bulbasaur|2.04|15.2|B|Seed|Overgrow|1|001
+Ivysaur|3.03|28.7|B|Seed|Overgrow|2|002
+Venusaur|6.07|220.5|B|Seed|Overgrow|3|003
+Smoochum|1.04|13.2|F|Kiss|Oblivious, Forewarn|1|238
+Jynx|4.07|89.5|F|Human Shape|Oblivious, Forewarn|2|124
+Growlithe|2.04|41.9|B|Puppy|Intimidate, Flash Fire|1|058
+Arcanine|6.03|341.7|B|Legendary|Intimidate, Flash Fire|2|059
+Finneon|1.04|15.4|B|Wing Fish|Swift Swim, Storm Drain|1|456
+Lumineon|3.11|52.9|B|Neon|Swift Swim, Storm Drain|2|457
+Ditto|1.00|8.8|U|Transform|Limber|0|132
+Nidoran|1.04|15.4|F|Poison Pin|Poison Point, Rivalry|1|029
+Nidorina|2.07|44.1|F|Poison Pen|Poison Point, Rivalry|2|030
+Nidoqueen|4.03|132.3|F|Drill|Poison Point, Rivalry|3|031
+Nidoran|1.08|19.8|M|Poison Pin|Poison Point, Rivalry|1|032
+Nidorino|2.11|43.0|M|Poison Pin|Poison Point, Rivalry|2|033
+Nidorino|4.07|136.7|M|Drill|Poison Point, Rivalry|3|034
