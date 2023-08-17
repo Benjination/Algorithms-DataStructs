@@ -1,4 +1,4 @@
-//Ben niccum 1002111609
+//Benjamin Niccum
 
 #include <stdio.h>
 #include <stdlib.h>
